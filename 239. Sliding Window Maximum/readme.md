@@ -17,10 +17,12 @@ Window position                Max
  1  3  -1 [-3  5  3] 6  7       5
  1  3  -1  -3 [5  3  6] 7       6
  1  3  -1  -3  5 [3  6  7]      7
+ 
 Example 2:
 
 Input: nums = [1], k = 1
 Output: [1]
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 max1.py code uses slicing approach but is time complexity is O(n*k) where k: slicing window, so due to high complexity some test cases get fail
