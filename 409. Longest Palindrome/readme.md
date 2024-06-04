@@ -28,8 +28,11 @@ An empty set ss is initialized to keep track of characters that appear an odd nu
         ss.remove(letter)
    
 The code iterates through each character (letter) in the string s.
+
 If the character is not in the set ss, it means it is appearing for the first time (or another odd occurrence), so the character is added to the set.
+
 If the character is already in the set ss, it means it is appearing for the second time (or another even occurrence), so the character is removed from the set.
+
 By the end of this loop, the set ss will contain all characters that have appeared an odd number of times in the string.
 
 3. if len(ss) != 0:
@@ -38,9 +41,13 @@ By the end of this loop, the set ss will contain all characters that have appear
     return len(s)
 
 If the set ss is not empty (len(ss) != 0), it means there are characters with odd frequencies.
+
   The length of the longest palindrome that can be formed is given by len(s) - len(ss) + 1.
+  
   This formula works because len(s) - len(ss) gives the length of characters that can pair up to form a palindrome, and +1 allows for one odd character to be placed in the center of the palindrome.
+  
 If the set ss is empty (len(ss) == 0), it means all characters have even frequencies.
+
   The length of the longest palindrome in this case is simply the length of the string len(s) because all characters can be used to form a perfect palindrome.  
 
 
