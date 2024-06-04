@@ -57,12 +57,19 @@ Consider the string "abccccdd":
 
 After iterating through the string:
 a is added to ss: ss = {'a'}
+
 b is added to ss: ss = {'a', 'b'}
+
 c is added to ss: ss = {'a', 'b', 'c'}
+
 c is removed from ss: ss = {'a', 'b'}
+
 c is added to ss: ss = {'a', 'b', 'c'}
+
 c is removed from ss: ss = {'a', 'b'}
+
 d is added to ss: ss = {'a', 'b', 'd'}
+
 d is removed from ss: ss = {'a', 'b'}
 
 After processing, ss contains {'a', 'b'} which means characters a and b have odd frequencies.
