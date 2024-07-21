@@ -38,6 +38,7 @@ Explanation: Every item has a weight exceeding the knapsack's capacity (3).
 
 
 Your Task:
+
 Complete the function knapSack() which takes maximum capacity W, weight array wt[], value array val[], and the number of items n as a parameter and returns the maximum possible value you can get.
 
 Expected Time Complexity: O(N*W).
